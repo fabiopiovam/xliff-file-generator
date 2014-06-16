@@ -30,19 +30,17 @@ $xliff_generator->addRegex("->trans\(['\"](.*)['\"]\)");
 $xliff_generator->addRegex("\{ *['\"](.*)['\"] *\|trans\}");
 ```
 
-Executando
-----------
+### Executando
 
 ```sh
 $ php xliff-generator.php
 ```
 
-Virtaal para traduzir os textos
--------------------------------
+### Virtaal para traduzir os textos
 
-Virtaal é uma simples e poderosa ferramenta de tradução
+Virtaal é uma simples e poderosa ferramenta de tradução. Pode ser encontrada [aqui](http://virtaal.translatehouse.org/)
 
-### Uso
+#### Uso
 
 1. Instale o programa Virtaal `# aptitude install virtaal` ou utilize a documentação através do repositório [aqui](https://github.com/translate/virtaal)
 

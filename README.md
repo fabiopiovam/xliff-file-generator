@@ -30,19 +30,17 @@ $xliff_generator->addRegex("->trans\(['\"](.*)['\"]\)");
 $xliff_generator->addRegex("\{ *['\"](.*)['\"] *\|trans\}");
 ```
 
-Executing
----------
+### Executing
 
 ```sh
 $ php xliff-generator.php
 ```
 
-Virtaal to make translation
----------------------------
+### Virtaal to make translation
 
-Virtaal is easy-to-use and powerful offline translation tool
+Virtaal is easy-to-use and powerful offline translation tool. It's found [here](http://virtaal.translatehouse.org/)
 
-### Using
+#### Using
 
 1. Install Virtaal `# aptitude install virtaal` or use repository documentation [here](https://github.com/translate/virtaal)
 
