@@ -8,7 +8,11 @@ try{
     $xliff_generator->setFolder('/var/www/laborautonomo-site/');
     $xliff_generator->setLanguages(array('pt_BR','en','es'));
     $xliff_generator->setExtensions(array('php','twig'));
+    
+    //this regex to search all words into "->trans(' ... ')" used in Silex Micro-Framework
     $xliff_generator->addRegex("->trans\(['\"](.*)['\"]\)");
+    
+    //this regex to search all words into "{' ... '|trans}" used in Twig Template Language
     $xliff_generator->addRegex("\{ *['\"](.*)['\"] *\|trans\}");
     
     $xliff_generator->generate();
