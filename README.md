@@ -3,7 +3,7 @@ xliff-file-generator
 
 [XLIFF (XML Localisation Interchange File Format)](http://en.wikipedia.org/wiki/XLIFF) i18n files generator.
 
-This project was created from the need to make the internationalization of [laborautonomo.org](http://laborautonomo.org) website, developed with Silex PHP micro-framework and Twig template language, which now has its content in Portuguese, English and Spanish.
+This project was created from the need to make the internationalization of [laborautonomo.org](http://laborautonomo.org) website (developed with Silex PHP micro-framework and Twig template language), which now has its content in Portuguese, English and Spanish.
 
 ### Requeriments
 
