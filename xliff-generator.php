@@ -5,7 +5,7 @@ try{
         
     $xliff_generator = new XliffGenerator();
     
-    $xliff_generator->setFolder('/var/www/laborautonomo-site/');
+    $xliff_generator->setFolder('set_the_project_path_to_make_i18n');
     $xliff_generator->setLanguages(array('pt_BR','en','es'));
     $xliff_generator->setExtensions(array('php','twig'));
     
