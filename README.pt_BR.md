@@ -3,7 +3,7 @@ xliff-file-generator
 
 Gerador de arquivos de internacionalização (i18n) no formato [XLIFF (XML Localisation Interchange File Format)](http://en.wikipedia.org/wiki/XLIFF).
 
-Este projeto foi criado a partir da necessidade de se fazer a internacionalização do site [laborautonomo.org](http://laborautonomo.org) (desenvolvido com Silex PHP Micro-estrutura e linguagem de template Twig), que agora tem seu conteúdo em Português, Inglês e Espanhol.
+Este projeto foi criado a partir da necessidade de fazer a internacionalização do site [laborautonomo.org](http://laborautonomo.org) (desenvolvido com Silex PHP micro-framework e linguagem de template Twig), que agora tem seu conteúdo em Português, Inglês e Espanhol.
 
 ### Requerimentos
 
